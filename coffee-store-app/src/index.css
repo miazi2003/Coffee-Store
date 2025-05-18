@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.font{
+      font-family: "Rancho", cursive;
+}
+
+.fontTwo{
+      font-family: "Raleway", sans-serif;
+}
+.bgImage{
+      background-image: '/coffee-store-app/coffee-store-resources/images/cups/Rectangle 10.png';
+}
