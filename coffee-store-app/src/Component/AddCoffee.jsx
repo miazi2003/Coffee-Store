@@ -36,7 +36,7 @@ const AddCoffee = () => {
   };
 
   return (
-    <div className="">
+    <div className="max-w-7xl mx-auto">
       <div>  <Link to={"/"}>
 
           <button className=" text-[#374151] mt-4 mb-4  font font-bold text-xl flex items-center gap-4">
@@ -127,13 +127,13 @@ const AddCoffee = () => {
 
               <div className=" flex flex-col gap-4">
                 <label className="text-sm font-semibold text-left -mb-2">
-                  Category
+                  Price
                 </label>
                 <input
                   type="text"
                   className=" bg-white shadow h-8  font-medium border-none rounded px-4 text-xs"
-                  placeholder="Select Category"
-                  name="category"
+                  placeholder="Price"
+                  name="price"
                 />
               </div>
               <div className=" flex flex-col gap-4">
